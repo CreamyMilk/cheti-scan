@@ -48,6 +48,8 @@ export default {
       navigator.mediaDevices
         .getUserMedia({
           video: {
+            width: { ideal: 4096 },
+            height: { ideal: 2160 },
             facingMode: "environment"
           },
           audio: false
