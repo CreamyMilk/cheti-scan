@@ -44,7 +44,7 @@ export default {
       formData.append('file', file);
       try {
         const response = await axios.post(
-          'https://dotch.glitch.me/scan',
+          'https://trail-utopian-toothpaste.glitch.me/scan',
           formData,
           {
             headers: {

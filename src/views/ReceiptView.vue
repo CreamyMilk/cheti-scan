@@ -121,7 +121,7 @@ export default {
   methods: {
     async fetchReceipt() {
       try {
-        const apiResponse = await axios.get(`https://dotch.glitch.me/receipt/${this.id}`);
+        const apiResponse = await axios.get(`https://trail-utopian-toothpaste.glitch.me/receipt/${this.id}`);
         this.receipt = apiResponse.data.data;
         this.toggleItem(this.items[0]);
       } catch (error) {
